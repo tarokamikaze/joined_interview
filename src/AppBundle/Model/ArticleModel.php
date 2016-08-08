@@ -48,7 +48,7 @@ SQL
      * @return bool
      * @throws \Doctrine\DBAL\DBALException
      */
-    private function incrementCounter(array $article)
+    public function incrementCounter(array $article)
     {
         if (!$this->counterIsIncremented) {
             $currentCounter = $article['counter'];
@@ -86,7 +86,7 @@ SQL
     /**
      * @return \Doctrine\DBAL\Connection
      */
-    private function getDb()
+    public function getDb()
     {
         // フレームワーク（DIコンテナ）の機能で、PDOを返す。
         return $this->container->get('doctrine.dbal.connection');
