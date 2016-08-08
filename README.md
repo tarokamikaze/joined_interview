@@ -3,8 +3,7 @@
 ## 問題
 
 これは、かんたんなブログシステムです。  
-[コントローラー](src/AppBundle/Controller/ArticleController.php) と  
-[モデル](src/AppBundle/Model/ArticleModel.php) をソースレビューしてください。  
+[コントローラー](src/AppBundle/Controller/ArticleController.php) と  [モデル](src/AppBundle/Model/ArticleModel.php) をソースレビューしてください。  
 
 ## 解答例
 
